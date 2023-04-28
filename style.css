@@ -26,7 +26,7 @@
   }
   h1 {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 70px;
   h2{
       font-size: 50px;
   }
@@ -46,3 +46,31 @@
   .main-section a:hover {
     cursor: pointer;
     border-color: black;
+  }
+  .absolute {
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+  }
+  .absolute img {
+    width: 500px;
+    height: 250px;
+  }
+  .img1, .img2, .img3 {
+  position: absolute;
+  }
+  .img1 {
+    left: 50px;
+    z-index: 1;
+  }
+  .img2{
+  top:20px;
+  left: 480px;
+  z-index: 2;
+  }
+  .img3 {
+  top:80px;
+  left: 480px;
+  z-index: 13;
+  }
